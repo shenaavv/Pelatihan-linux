@@ -23,7 +23,7 @@ find .*opera*NBAY* && strings .*opera*NBAY*|grep FLAG{ && strings .*opera*NBAY*|
 ```
 ## 6. Mengambil flag yang telah ditemukan lalu mundur 1 dir dan mengunduh file “plsrunmeiamnotmalwarefr”
 ```
-cd .. && wget -O plsrunmeiamnotmalwarefr "https://files.catbox.moe/9l4qu8}"
+cd .. && wget -O plsrunmeiamnotmalwarefr "https://files.catbox.moe/9l4qu8"
 ```
 ## 7. Izin execute dan menjalankan program
 ```
