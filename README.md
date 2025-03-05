@@ -19,12 +19,9 @@ cd singing_tutorials/ && ls -a
 ```
 ## 5. Mencari file “opera” dibuat oleh “NBAYoungboy” & dimasukkan ke folder “flag.txt”
 ```
-find *opera*NBAYoungboy* | grep -r "FLAG{"
+find .*opera*NBAY* && strings .*opera*NBAY*|grep FLAG{ && strings .*opera*NBAY*|grep FLAG{ > ../flagg.txt
 ```
 ## 6. Mengambil flag yang telah ditemukan lalu mundur 1 dir dan mengunduh file “plsrunmeiamnotmalwarefr”
-```
-strings .*opera*NBAYoungboy* | grep FLAG{https://files.catbox.moe/9l4qu8} > ../flag.txt
-```
 ```
 cd .. && wget -O plsrunmeiamnotmalwarefr "https://files.catbox.moe/9l4qu8}"
 ```
